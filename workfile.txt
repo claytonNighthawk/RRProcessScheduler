@@ -1,0 +1,4 @@
+./cpubound -name cpu1
+./iobound -name io1
+./cpubound -name cpu2
+./iobound -name io2

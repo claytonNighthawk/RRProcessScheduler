@@ -1,0 +1,3 @@
+I used the ADTs github repo (https://github.com/jsventek/ADTs) to implement my bounded queue and arraylist.
+
+Everything works to the best of my knowledge. I ran valgrind on all 4 parts. 
