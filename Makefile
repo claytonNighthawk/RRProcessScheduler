@@ -32,7 +32,7 @@ run3: uspsv3
 	./uspsv3 workfile2.txt --quantum=500
 
 run4: uspsv4
-	./uspsv4 workfile2.txt --quantum=500
+	./uspsv4 workfile3.txt --quantum=500
 
 valgrindtest: uspsv4
 	valgrind --leak-check=full ./uspsv3 --quantum=1000 workfile3.txt
