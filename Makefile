@@ -32,7 +32,7 @@ run4: uspsv4
 	./uspsv4 workfile1.txt --quantum=1000
 
 valgrindtest: uspsv4
-	valgrind --leak-check=full -v ./uspsv4 --quantum=1000 workfile1.txt
+	valgrind --leak-check=full ./uspsv4 --quantum=1000 workfile2.txt
 
 # Remove all objects and programs 
 clean: 
