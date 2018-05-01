@@ -1,4 +1,4 @@
-// Clayton kilmer, kilmer, this is my own work except the arraylist and bqueue implentations
+// Clayton kilmer, kilmer, this is my own work except the arraylist, bqueue, and p1fxns implentations
 
 #define _POSIX_SOURCE
 #include <unistd.h>
@@ -335,7 +335,6 @@ void executeWorkfile(int fd) {
     al_destroy(commands, destroyCmd);
     close(fd);
 }
-
 
 int main(int argc, char* argv[]) {
     subscribeToSignals();
