@@ -102,7 +102,7 @@ void parseProc(){
 }
 
 void signal_handler(int signo) {
-    int alarmsEnabled = 1;
+    int alarmsEnabled = 1; //TODO make alarmsEnabled actually do something
     void* tempVoidPCB;
     int sig;
 
