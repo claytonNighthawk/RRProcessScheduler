@@ -349,6 +349,7 @@ int main(int argc, char* argv[]) {
     it_val.it_interval = it_val.it_value;
     if (setitimer(ITIMER_REAL, &it_val, NULL) == -1) {
         p1perror(STDERR_FILENO, "error calling setitimer()");
+        exit(-1);
     }
 
     childHandler();
